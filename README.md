@@ -41,3 +41,5 @@ test( "Components availability", function( assert ) {
 ```
 
 For more examples, refer to the unit tests.
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5fce730810743a9e0d37da797c78cec9 "githalytics.com")](http://githalytics.com/dsheiko/qunit-assert-nodes)
