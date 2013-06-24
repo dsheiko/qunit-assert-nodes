@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dsheiko/qunit-assert-step.png)](https://travis-ci.org/dsheiko/qunit-assert-step)
+[![Build Status](https://travis-ci.org/dsheiko/qunit-assert-nodes.png)](https://travis-ci.org/dsheiko/qunit-nodes-step) [![NPM version](https://badge.fury.io/js/qunit-assert-nodes.png)](http://badge.fury.io/js/qunit-assert-nodes)
 
 # QUnit Nodes assertion plugin
 
