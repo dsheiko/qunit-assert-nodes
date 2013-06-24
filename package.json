@@ -20,10 +20,9 @@
     "qunit-assert",
     "qunit",
     "assert",
-    "order",
-    "step"
+    "order"
   ],
-  "main": "qunit-assert-step.js",
+  "main": "qunit-assert-nodes.js",
   "scripts": {
     "test": "grunt test"
   },
