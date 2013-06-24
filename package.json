@@ -1,0 +1,37 @@
+{
+  "name": "qunit-assert-nodes",
+  "description": "A QUnit plugin providing a convenient API for batch acceptance assertions",
+  "version": "0.0.1",
+  "homepage": "https://github.com/dsheiko/qunit-assert-nodes.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dsheiko/qunit-assert-nodes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dsheiko/qunit-assert-nodes.git/issues"
+  },
+  "license": {
+    "name": "MIT",
+    "url": "http://www.opensource.org/licenses/mit-license.php"
+  },
+  "keywords": [
+    "jquery",
+    "qunit-plugin",
+    "qunit-assert",
+    "qunit",
+    "assert",
+    "order",
+    "step"
+  ],
+  "main": "qunit-assert-step.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-qunit": "~0.2.1",
+    "grunt-git-authors": "~1.2.0",
+    "qunitjs": "1.x"
+  }
+}
