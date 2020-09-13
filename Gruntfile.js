@@ -13,11 +13,12 @@ module.exports = function(grunt) {
       all: ["*.js", "test/**/*.js"]
     },
     qunit: {
+      // For CI and Docker compat
+      options: { puppeteer: { args: [ "--no-sandbox" ] } },
       all: ["test/index.html"]
     }
   });
 
   grunt.registerTask("test", ["jshint", "qunit"]);
-  grunt.registerTask("default", ["test"]);
 
 };

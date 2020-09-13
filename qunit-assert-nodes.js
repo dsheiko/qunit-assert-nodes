@@ -57,13 +57,13 @@
          */
         nodes: function( batch ) {
             var that = this;
-            if ( !$.isArray( batch ) ) {
-                    throw new TypeError("query parameter must be an array");
+            if ( !Array.isArray( batch ) ) {
+                throw new TypeError("query parameter must be an array");
             }
-            $.each( batch, function( i ){
-                if ( !batch[ i ].node || !batch[ i ].assert ) {
+            $.each( batch, function( i, request ) {
+                if ( !request.node || !request.assert ) {
                     throw new TypeError("query element is invalid. Must be { node: '', assert: '', message: ''}");
-            }
+                }
             });
             $.each( batch, function( inx, request ) {
                 that.ok( assertions[ request.assert ].call( request.node ), request.message );

@@ -23,7 +23,7 @@ Where batch is an array of assertion request objects, each of the following stru
 ### Example ###
 
 ```js
-test( "Components availability", function( assert ) {
+QUnit.test( "Components availability", function( assert ) {
     assert.nodes([
         {node: $("section.example"),
             assert: "exists",
