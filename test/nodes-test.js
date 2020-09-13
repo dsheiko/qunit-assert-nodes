@@ -1,12 +1,12 @@
 QUnit.module("Test qunit-assert-nodes assertion methods", {
-    setup: function() {
+    beforeEach: function() {
         this.fixture = $('<div id="fixture" style="visibility: hidden">' +
             '<div id="case1"></div>' +
             '<div id="case2" style="display: none"></div>' +
             '<input id="case3" type="checkbox" checked="checked" />' +
             '</div>').appendTo("body");
     },
-    teardown: function() {
+    afterEach: function() {
         $( this.fixture ).remove();
     }
 });
